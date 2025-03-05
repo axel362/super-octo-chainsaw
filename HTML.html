@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Achetez des comptes Fortnite sécurisés et boostez vos niveaux et skins.">
+    <title>Vente de Comptes Fortnite - Skycoach</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Skycoach Fortnite Shop">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Comptes</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#panier">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Accueil Section -->
+    <section id="accueil">
+        <h1>Vente de Comptes Fortnite</h1>
+        <p>Achetez des comptes Fortnite avec des skins rares et des niveaux élevés. Boostez votre expérience de jeu dès aujourd'hui !</p>
+    </section>
+
+    <!-- Produits Section -->
+    <section id="produits">
+        <h2>Nos Comptes Fortnite</h2>
+        <div class="produit">
+            <img src="compte1.jpg" alt="Compte A">
+            <h3>Compte A</h3>
+            <p>Skins rares, niveau 100</p>
+            <p>Prix : 50€</p>
+            <button onclick="ajouterAuPanier('Compte A', 50)">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="compte2.jpg" alt="Compte B">
+            <h3>Compte B</h3>
+            <p>Skins légendaires, niveau 150</p>
+            <p>Prix : 80€</p>
+            <button onclick="ajouterAuPanier('Compte B', 80)">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="compte3.jpg" alt="Compte C">
+            <h3>Compte C</h3>
+            <p>Skins épique, niveau 200</p>
+            <p>Prix : 120€</p>
+            <button onclick="ajouterAuPanier('Compte C', 120)">Ajouter au panier</button>
+        </div>
+    </section>
+
+    <!-- Panier Section -->
+    <section id="panier">
+        <h2>Mon Panier</h2>
+        <div id="panier-content">
+            <p>Pas de produits dans le panier.</p>
+        </div>
+        <button onclick="passerCommande()">Passer la commande</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Skycoach - Tous droits réservés</p>
+        <p><a href="#contact">Contact</a></p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="sc
